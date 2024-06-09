@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <img src="aththan.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Welcome.</h1>
+        <p>My name is Aththan Vimalan and im based in Oslo, Norway. I am a front-end developer passionate about creating beautiful and functional web applications.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="project1.jpg" alt="Project 1 Screenshot">
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <img src="project2.jpg" alt="Project 2 Screenshot">
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <img src="project3.jpg" alt="Project 3 Screenshot">
+            <h3>Project 3</h3>
+            <p>Description of project 3.</p>
+            <a href="#">View Project</a>
+        </div>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>Vue.js</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
 
+    <footer>
+        <p>&copy; 2024 Aththan Vimalan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
